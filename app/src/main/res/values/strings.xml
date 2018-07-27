@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">prototype3</string>
+    <string name="passwordRequiredText">Password Required</string>
+    <string name="passwordPromptText">Enter the password below:</string>
+    <string name="passwordEnterButton">ENTER</string>
+    <string name="selectJobPrompt">What is your job?</string>
+    <string name="selectJobHospitalStaffButtonText">HOSPITAL STAFF</string>
+    <string name="selectJobPatientTransportationButtonText">PATIENT TRANSPORTATION</string>
+    <string name="title_activity_choose_hospital">chooseHospital</string>
+    <string name="chooseHospitalPromptText">Select the hospital you work at.</string>
+    <string name="ExampleButtonText">PRESS HERE</string>
+    <string-array name="hospital_choices">
+        <item>Al-Shifa</item>
+        <item>Kamal Adwan</item>
+        <item>Nasser</item>
+        <item>European Gaza</item>
+        <item>Al-Quds</item>
+        <item>Abu Yousef Al Najjar</item>
+        <item>Al-Aqsa</item>
+        <item>Al-Awda</item>
+        <item>Beit Hanoun</item>
+    </string-array>
+</resources>
