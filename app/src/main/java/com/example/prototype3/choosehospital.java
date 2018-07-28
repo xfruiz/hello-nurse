@@ -7,7 +7,7 @@ import android.widget.Spinner;
 
 public class choosehospital extends AppCompatActivity {
 
-    Spinner hospitalSelectionSpinner = (Spinner) findViewById(R.id.chooseHospitalDropdown);
+    Spinner hospitalSelectionSpinner = (Spinner) findViewById(R.id.spChooseHospital);
     ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
             R.array.hospital_choices, android.R.layout.simple_spinner_item);
 
