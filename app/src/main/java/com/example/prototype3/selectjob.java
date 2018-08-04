@@ -8,26 +8,11 @@ import android.widget.Button;
 
 public class selectjob extends AppCompatActivity {
 
-    public Button btnHospitalStaff;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_selectjob);
 
-
-        btnHospitalStaff = findViewById(R.id.btnHospitalStaff);
-        btnHospitalStaff.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openChooseHospital();
-            }
-        });
     }
-        public void openChooseHospital(){
-            Intent open_choose_hospital = new Intent(selectjob.this, choosehospital.class);
-            startActivity(open_choose_hospital);
-    }
-
-
 }
